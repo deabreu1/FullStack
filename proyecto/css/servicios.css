@@ -1,6 +1,8 @@
 .logo{
     font-size: 250%;
 }
+
+/* cards servicios*/
 .card-container{
     display: flex;
     flex-wrap: wrap;
