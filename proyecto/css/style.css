@@ -1,0 +1,11 @@
+@import url(contacto.css);
+@import url(galeria.css);
+@import url(index.css);
+@import url(servicios.css);
+
+body{
+    background-image: url(..//img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}

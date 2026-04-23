@@ -1,0 +1,130 @@
+
+.logo{
+    font-size: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logoprincipal{
+    height: 100px;
+    width: 200px;
+}
+
+.infogeneral{
+    text-align: center;
+    padding: 1.5rem;
+}
+.texto-general{
+    border: 3px solid #575757;
+    font-size: 130%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    height: auto;
+    background-image: url(..//img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.fa-solid{
+    padding: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: rgb(0, 0, 0);
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.brand-marquee {
+    background: #ffffff;
+    padding: 40px 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.brand-header h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: auto;
+}
+
+.marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    white-space: nowrap;
+    will-change: transform;
+}
+
+.brand-item {
+    flex: 0 0 auto;
+}
+
+.brand-item img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    transition: all .3s ease;
+    opacity: .8;
+}
+
+.brand-item img:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+@media (max-width:768px) {
+
+    .brand-item img {
+        height: 40px;
+    }
+
+}
+
+/* footer */
+footer{
+    background-color: #575757;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;
+    background-image: url(..//img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.footer-1{
+    text-decoration: none;
+    color: black;
+}
+.footer-nav{
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.redes{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}

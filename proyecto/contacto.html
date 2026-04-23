@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M & D INTEGRAL S.R.L.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"> <img src="./img/logoblanco.png" class="logoprincipal" alt="">
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a class="titulos-nav" href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                <li><a class="titulos-nav" href="servicios.html"><i
+                            class="fa-solid fa-screwdriver-wrench"></i>Servicios</a></li>
+                <li><a class="titulos-nav" href="galeria.html"><i class="fa-solid fa-image"></i>Galeria</a></li>
+                <li><a class="titulos-nav" href="contacto.html"><i class="fa-solid fa-phone"></i>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contactanos</h1>
+
+    <section class="form-container">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!4v1776646403389!6m8!1m7!1sEKpJoExGtCInvF_8Y1IfcA!2m2!1d-45.88234338308645!2d-67.50863079398763!3f234.97921173821177!4f-15.601946547114267!5f0.7820865974627469"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-container" id="map"> </div>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reason">Motivo de contacto</label>
+                            <select name="reason" id="reason" required>
+                                <option value="" disabled selected>Seleccione una opcion</option>
+                                <option value="turno">Pedir turno</option>
+                                <option value="repuestos">Repuestos</option>
+                                <option value="claim">Reclamo</option>
+                                <option value="other">Presupuesto para empresas</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="consulta" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <h5>¿Es cliente nuestro?</h5>
+                            <div>
+                                <input type="radio" required id="client-yes" value="yes" name="is-client">
+                                <label for="client-yes">Sí</label>
+                            </div>
+                            <div>
+                                <input type="radio" required id="client-no" value="no" name="is-client">
+                                <label for="client-yes">No</label>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-primary">Reiniciar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul class="footer-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="redes">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/mdintegrals.r.l/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <p>© 2026 M & D INTEGRAL S.R.L., Todos los derechos reservados.</p>
+    </footer>
+</body>
