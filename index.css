@@ -110,7 +110,7 @@ footer{
     text-align: center;
     padding: 2rem;
     margin-top: auto;
-    background-image: url(..//img/fondo.jpg);
+    background-image: url(./img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
